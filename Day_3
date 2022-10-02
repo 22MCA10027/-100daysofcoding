@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class EvenorOdd
+{
+    public static void main(String[] args)
+    {
+        int num;
+        System.out.println("Enter a number");
+        Scanner sc= new Scanner(System.in);
+        num=sc.nextInt();
+        if(num%2==0)
+        {
+            System.out.println("The number what you hava entered is Even");
+        }
+        else
+        {
+            System.out.println("The number what you hava entered is Odd");
+        }
+    }
+}
